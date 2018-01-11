@@ -40,6 +40,7 @@ export default class SearchBar extends Component {
 
         return (
             <Search
+                fluid={true}
                 loading={isLoading}
                 onResultSelect={this.handleResultSelect}
                 onSearchChange={this.handleSearchChange}
